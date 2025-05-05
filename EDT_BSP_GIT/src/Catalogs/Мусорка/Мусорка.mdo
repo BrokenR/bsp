@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c89ffd4f-4853-421a-87eb-ad95441e2f70">
+  <producedTypes>
+    <objectType typeId="73a19ef0-899c-4b5f-baa7-3fc44ead756b" valueTypeId="76035986-68ce-4fa3-bca7-1844441d383c"/>
+    <refType typeId="da06e19a-0ed3-41dd-9953-14c6de70c158" valueTypeId="92c5fe02-d9c1-42c6-94e8-8a103494f58f"/>
+    <selectionType typeId="4c4d7350-d13f-4920-aff5-5618d3f3157a" valueTypeId="b8ffd683-5c0c-4fe9-935a-cbcd7afb5247"/>
+    <listType typeId="ec6a5d95-78c8-472e-826b-5bfcb7193aae" valueTypeId="063b939b-4b58-4756-a13a-81839d30a9d1"/>
+    <managerType typeId="f45dac34-b5ee-4f7b-ab22-10c72bb3407f" valueTypeId="1e7594a6-e142-45bc-aaa6-3ebc7a69a240"/>
+  </producedTypes>
+  <name>Мусорка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мусорка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Мусорка.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Мусорка.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
