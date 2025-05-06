@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c89ffd4f-4853-421a-87eb-ad95441e2f70">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c89ffd4f-4853-421a-87eb-ad95441e2f70">
   <producedTypes>
     <objectType typeId="73a19ef0-899c-4b5f-baa7-3fc44ead756b" valueTypeId="76035986-68ce-4fa3-bca7-1844441d383c"/>
     <refType typeId="da06e19a-0ed3-41dd-9953-14c6de70c158" valueTypeId="92c5fe02-d9c1-42c6-94e8-8a103494f58f"/>
@@ -30,4 +30,22 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="0d3c0739-3be5-47dd-99e2-fd6f6ba925f3">
+    <name>ТестРеквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест реквизит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
